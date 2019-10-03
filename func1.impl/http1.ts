@@ -1,11 +1,12 @@
 import { AzureFunction, Context } from "@azure/functions"
+import * as tslib from '@tslib/HelloService'
 
 const httpTrigger: AzureFunction = async function (context: Context): Promise<void> {
     context.log('HTTP trigger function processed a request.');
-
+    const svc = new tslib.HelloService()
     context.res = {
         // status: 200, /* Defaults to 200 */
-        body: `Hello from the http1 function in the root dist folder 👋🏼`
+        body: svc.say('http1')
     };
 
 };

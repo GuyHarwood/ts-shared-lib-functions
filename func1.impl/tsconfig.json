@@ -2,8 +2,5 @@
   "extends": "../tsconfig.base",
   "references": [
 		{ "path": "../tslib" }
-  ],
-  "compilerOptions": {
-    "rootDir": "src"
-	}
+  ]
 }

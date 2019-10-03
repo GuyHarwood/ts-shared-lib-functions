@@ -2,18 +2,10 @@
   "name": "func1",
   "version": "0.1.0",
   "scripts": {
-    "build": "tsc",
-    "build:production": "npm run prestart && npm prune --production",
-    "watch": "tsc --w",
-    "prestart": "npm run build && func extensions install",
+    "prestart": "func extensions install",
     "start:host": "func start",
-    "start": "npm run start:host & npm run watch",
-    "test": "echo \"No tests yet...\""
+    "start": "yarn start:host",
+    "test": "echo \"run tests from root directory\""
   },
-  "description": "",
-  "devDependencies": {
-    "@azure/functions": "^1.0.1-beta1",
-    "@types/node": "^12.7.9",
-    "typescript": "^3.3.3"
-  }
+  "description": "bootstrap app for running functions"
 }
