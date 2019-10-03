@@ -8,7 +8,7 @@
     "lint": "",
     "test": "yarn jest",
     "watch": "yarn jest --watchAll",
-    "build": "tsc --build tslib",
+    "build": "tsc --build tslib && cd func1 && yarn build",
     "clean": "rm -rf dist",
     "rebuild": "yarn clean  && yarn build"
   },
