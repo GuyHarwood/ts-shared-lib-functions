@@ -1,4 +1,4 @@
-import * as tslib from '../tslib/hello.service'
+import * as tslib from '../tslib/index'
 
 let sut: tslib.HelloService
 
