@@ -2,7 +2,7 @@
   "extends": "../tsconfig-base.json",
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "../dist/func1-impl"
+    "outDir": "../dist/func-impl"
   },
   "references": [
 		{ "path": "../tslib" }

@@ -6,7 +6,8 @@
       "type": "timerTrigger",
       "direction": "in",
       "name": "myTimer",
-      "methods": null
+      "methods": null,
+      "schedule": "*/15 * * * * *"
     }
   ],
   "scriptFile": "../../dist/func-impl/func-timer.js"
