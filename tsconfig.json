@@ -5,7 +5,7 @@
       "path": "./tslib"
     },
     {
-      "path": "./func1-impl"
+      "path": "./func-impl"
     },
     {
       "path": "./tslib-test"

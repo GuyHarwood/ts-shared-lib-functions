@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": null,
+      "type": "timerTrigger",
+      "direction": "in",
+      "name": "myTimer",
+      "methods": null
+    }
+  ],
+  "scriptFile": "../../dist/func-impl/func-timer.js"
+}
