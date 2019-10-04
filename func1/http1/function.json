@@ -18,5 +18,5 @@
       "methods": null
     }
   ],
-  "scriptFile": "../../dist/http1.js"
+  "scriptFile": "../../dist/func1.impl/http1.js"
 }
