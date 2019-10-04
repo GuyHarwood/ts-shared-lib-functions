@@ -1,9 +1,10 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "../tsconfig-base.json",
   "references": [
 		{ "path": "../tslib" }
   ],
   "compilerOptions": {
-    "rootDir": "src"
+    "rootDir": ".",
+    "outDir": "../dist/tslib.test"
 	}
 }
