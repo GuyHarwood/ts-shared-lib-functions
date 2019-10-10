@@ -1,6 +1,6 @@
 
 export class HelloService {
   say (name: string) {
-    return `hello from ${name}` 
+    return `hello from ${name} 👋🏼` 
   }
 }
