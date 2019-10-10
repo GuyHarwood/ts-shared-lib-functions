@@ -1,2 +1,2 @@
-export { HelloService } from './hello.service'
-export { GoodbyeService } from './goodbye.service'
+export { HelloService } from './hello/hello.service'
+export { GoodbyeService } from './goodbye/goodbye.service'

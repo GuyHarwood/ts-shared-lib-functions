@@ -1,14 +1,17 @@
 {
-  "files": [],
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
   "references": [
     {
       "path": "./tslib"
     },
     {
       "path": "./func-impl"
-    },
-    {
-      "path": "./tslib-test"
     }
   ]
 }
