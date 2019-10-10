@@ -2,7 +2,7 @@ import * as tslib from '../tslib/index'
 
 let sut: tslib.HelloService
 
-describe('myservice', () => {
+describe('hello service', () => {
   beforeEach(() => {
     sut = new tslib.HelloService()
   })
@@ -13,7 +13,7 @@ describe('myservice', () => {
 
   it('should return expected message', () => {
     const name = 'tests'
-    expect(sut.say(name)).toBe(`hello from ${name}`)
+    expect(sut.say(name)).toBe(`hello from ${name} 👋🏼`)
   })
 
 })
